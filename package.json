@@ -1,0 +1,31 @@
+{
+  "name": "gt-finding_falcon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "mode":"development",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode development",
+    "start": "webpack serve --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrai0792/GT-Finding_Falcon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrai0792/GT-Finding_Falcon/issues"
+  },
+  "homepage": "https://github.com/jrai0792/GT-Finding_Falcon#readme",
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.3.1"
+  }
+}
